@@ -11,7 +11,7 @@ This demo is using the **io.containerd.spin.v2** shim.
 
 You must enable an experimental feature in Docker for Desktop.  Ensure that these 2 checkboxes are checked:
 
-![](assets\2023-12-16-15-28-06.png)
+![](assets/2023-12-16-15-28-06.png)
 
 ## Build
 
@@ -24,7 +24,7 @@ spin build
 
 You will now see a .wasm file in targets 📁:
 
-![](assets\2023-12-16-15-24-55.png)
+![](assets/2023-12-16-15-24-55.png)
 
 To confirm the wasm application is working:
 
@@ -34,7 +34,7 @@ spin up
 
 You should now see the HTTP serverless application being served up from port 3000:
 
-![](assets\2023-12-16-15-20-44.png)
+![](assets/2023-12-16-15-20-44.png)
 
 Create image:
 
@@ -52,12 +52,12 @@ docker run -i --runtime=io.containerd.spin.v2 --platform=wasi/wasm -p 3000:80 do
 
 Shows container is running:
 
-![](assets\2023-12-16-15-08-54.png)
+![](assets/2023-12-16-15-08-54.png)
 
 Shows listener's response:
 
-![](assets\2023-12-16-15-10-08.png)
+![](assets/2023-12-16-15-10-08.png)
 
 Shows container log:
 
-![](assets\2023-12-16-15-10-52.png)
+![](assets/2023-12-16-15-10-52.png)
